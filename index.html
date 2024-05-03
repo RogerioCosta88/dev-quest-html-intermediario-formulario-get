@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Formulários Get</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulários GET</h1>
+
+    <p>Todas as <strong>Tags</strong> de <strong>input</strong> e incluindo as <strong>Tags</strong> <strong>select</strong> e <strong>button</strong> devem estar dentro da <strong>Tag</strong> <strong>form</strong> para que o usuário envie suas informações para o <i>backend</i> e/ou <i>frontend</i>.</p>
+
+    <p>Existe duas formas de enviar os formulários, uma delas é o <strong>get</strong> que deve ser especificado no <i>atributo</i> <strong>method</strong>.</p>
+
+    <p>O <strong>method</strong> definirá como as informações serão enviadas. Usando o <strong>get</strong>, as informações serão enviadas por <i>query-spring</i>, é a mesma forma que o <strong>Google</strong> usa. Todas as informações escolhidas pelo usuário, apareceram na <i>barra de endereço</i>.</p>
+
+    <p>Então devemos tomar cuidado ao colocar senha nesse tipo de <i>formulário</i>.</p>
+
+    <form action="index.html" method="get">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+</html>
